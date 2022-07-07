@@ -1,0 +1,83 @@
+
+
+body {
+    background-color: rgba(108, 144, 75, 0.864);
+    font-family: 'Source Code Pro', monospace;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d6d6d6ac;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 23px;
+}
+
+.bild-div {
+    text-align: center;
+}
+
+.start-btn {
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+button {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+#counterBlock {
+    padding-top: 100px;
+}
+
+#game{
+    overflow:hidden;
+}
+
+.gameRestart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Media queries------------------------------*/
+
+@media(min-width:768px) {
+    .container {
+        max-height: 600px;
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 1024px){
+    button:hover{
+    background-color: yellow;
+    border: none;
+}
+}    
