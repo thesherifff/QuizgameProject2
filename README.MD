@@ -13,7 +13,14 @@ Once the player clicks start, the game will push 10 questions ranging from all d
 
 When an answer is picked, the game will notify the user whether the answer is "correct" or "incorrect" and then proceed to the next question. 
 
-Once the last questions is answered the game will calculate the total number of correct scores and give the player a score. 
+<img width="1080" alt="correct" src="https://user-images.githubusercontent.com/40735237/177755482-5ccdfccd-55ce-4f6c-8ec3-328f4de7f5e3.png">
+<img width="1080" alt="incorrect" src="https://user-images.githubusercontent.com/40735237/177755492-f798e7f4-34a9-4b4a-abe2-17a71abbe1fa.png">
+
+
+Once the last questions is answered the game will calculate the total number of correct scores and give the player a score.
+
+<img width="1080" alt="score" src="https://user-images.githubusercontent.com/40735237/177755462-9daf0dec-2495-4bb0-a3ee-0026a20864d7.png">
+
 
 
 ## Score
